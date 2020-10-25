@@ -48,3 +48,18 @@ p, a{
     padding: 5px;
     color: white;
 }
+
+.extreme{
+    border-radius: 6px;
+    background-color: violet;
+    padding: 5px;
+    color: white;
+}
+
+.searchCol{
+    height: 100vh;
+    background-color: whitesmoke;
+    padding-top: 1rem;
+    padding-right: 2rem;
+    margin-right: -1rem;
+}
