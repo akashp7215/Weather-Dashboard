@@ -34,3 +34,17 @@ p, a{
     padding: 5px;
     color: black;
 }
+
+.high{
+    border-radius: 6px;
+    background-color: orange;
+    padding: 5px;
+    color: black;
+}
+
+.vhigh{
+    border-radius: 6px;
+    background-color: red;
+    padding: 5px;
+    color: white;
+}
