@@ -4,3 +4,7 @@ h1{
     font-size: 4rem;
     font-weight: 600;
 }
+
+p, a{
+    font-family: 'Montserrat', sans-serif;
+  }
