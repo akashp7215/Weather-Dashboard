@@ -77,3 +77,10 @@ $("#citySearchBtn").on("click", function(event){
     displayWeather();
     displayFiveDayForecast();
 });
+
+// Event handler for if the user hits enter after entering the city search term
+$("#cityInput").keypress(function(e){
+    if(e.which == 13){
+        $("#citySearchBtn").click();
+    }
+})
