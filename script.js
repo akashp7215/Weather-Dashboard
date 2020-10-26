@@ -84,3 +84,13 @@ $("#cityInput").keypress(function(e){
         $("#citySearchBtn").click();
     }
 })
+
+// This function runs the Open Weather API AJAX call and displays the current city, weather, and 5 day forecast to the DOM
+async function displayWeather() {
+
+    var queryURL = "https://api.openweathermap.org/data/2.5/weather?q=" + cityname + "&units=imperial&appid=d3b85d453bf90d469c82e650a0a3da26";
+
+    var response = await $.ajax({
+        url: queryURL,
+        method: "GET"
+      })
